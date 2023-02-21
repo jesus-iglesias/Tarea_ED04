@@ -1,11 +1,23 @@
 package Cuentas;
 
+/**
+ *
+ * @author jeged
+ */
 public class Main {
 
+    /**
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         operativa_cuenta(0);
     }
 
+    /**
+     *
+     * @param cantidad
+     */
     public static void operativa_cuenta(float cantidad) {
         CCuenta cuenta1;
         double saldoActual;
